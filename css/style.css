@@ -1002,3 +1002,30 @@ section {
 }
 
 
+
+
+
+/* ===== CLEAN ACCESSORY IMAGE (NO BOX) ===== */
+
+.accessory-image {
+    width: 100%;
+    height: auto;          /* no fixed box */
+    margin-bottom: 1.5rem;
+
+    background: none;      /* remove dark box */
+    padding: 0;
+    border-radius: 0;
+    overflow: visible;
+
+    display: block;
+}
+
+.accessory-image img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;     /* controls visual size */
+    object-fit: contain;
+
+    display: block;
+    margin: 0 auto;
+}
